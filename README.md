@@ -20,3 +20,10 @@ chmod 777 oc.sh
 sed -i -e 's/\r$//' oc.sh
 
 ./oc.sh
+
+
+
+
+
+oc.sh      centos
+ocserv-en.sh        ubuntu
