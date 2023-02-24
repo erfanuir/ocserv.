@@ -13,6 +13,8 @@ mkdir CISCO-VPN-SERVICE; cd CISCO-VPN-SERVICE
 
 دانلود فایل oc.sh
 ============================================================================centos=====================================================================================
+
+
 wget https://github.com/erfanuir/ocserv./blob/main/oc.sh
 
 chmod 777 oc.sh
@@ -23,6 +25,7 @@ sed -i -e 's/\r$//' oc.sh
 
 
 =============================================================================ubuntu=====================================================================================
+
 wget -N --no-check-certificate https://github.com/erfanuir/ocserv./blob/main/ocserv-en.sh
 chmod +x ocserv-en.sh
 bash ocserv-en.sh
