@@ -15,8 +15,8 @@ mkdir CISCO-VPN-SERVICE; cd CISCO-VPN-SERVICE
 ============================================================================centos=====================================================================================
 
 
-wget https://github.com/erfanuir/ocserv./blob/main/oc.sh
-
+git clone https://github.com/erfanuir/ocserv.
+ cd ocserv.
 chmod 777 oc.sh
 
 sed -i -e 's/\r$//' oc.sh
