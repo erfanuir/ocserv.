@@ -1,11 +1,7 @@
 #!/bin/bash
 
 
-# Version : 2.0.2
-# Build : Passing
-# Author : Amir Masoud Noohi
-# Language : Bash Script
-# Check whether the root user
+
 if [[ $(id -u) != "0" ]]; then
     printf "\e[42m\e[31mError: You must be root to run this install script.\e[0m\n"
     exit 1
