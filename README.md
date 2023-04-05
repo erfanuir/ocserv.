@@ -31,5 +31,12 @@ sed -i -e 's/\r$//' oc.sh
 wget -N --no-check-certificate https://github.com/erfanuir/ocserv./blob/main/ocserv-en.sh
 chmod +x ocserv-en.sh
 bash ocserv-en.sh
+
+
+
+
+
                                                          @erfangsmnet
+                                                         
+                                                         
                                                          telegram  t.me/gh_erfaan
